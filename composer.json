@@ -1,5 +1,5 @@
 {
-    "name": "pear/pear_exception",
+    "name": "fpoirotte/pear_exception",
     "description": "The PEAR Exception base class.",
     "type": "class",
     "keywords": [ "exception" ],
@@ -17,6 +17,9 @@
     ],
     "require": {
         "php": ">=4.4.0"
+    },
+    "provide": {
+        "pear/pear_exception": "0.0.0"
     },
     "autoload": {
         "psr-0": { "PEAR": "" }
